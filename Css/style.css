@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+}
+/* Reusable code  */
+ul {
+  padding-left: 20px;
+}
+.container {
+  display: flex;
+  max-width: 960px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  background-color: #028bb6;
+  color: #fff;
+  padding: 20px;
+  width: 30%;
+}
+.profile {
+  border-bottom: 2px solid #028bb6;
+}
+
+.profile h1 {
+  font-size: 24px;
+}
+
+.profile h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+.contact h3,
+.skills h3,
+.languages h3 {
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  width: fit-content;
+  margin-bottom: 12px;
+}
+.contact p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact p,
+.skills ul,
+.languages p {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.contact p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact p a:hover {
+  text-decoration: underline;
+}
+.job h4 {
+  padding-bottom: 4px;
+  margin-top: 14px;
+}
+
+.company-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.skills ul li {
+  margin: 5px 0;
+}
+
+.languages .stars {
+  margin-bottom: 10px;
+}
+
+.languages .stars i {
+  color: #fff;
+  margin-right: 2px;
+}
+
+p.company {
+  font-weight: 600;
+}
+p.date {
+  color: #028bb6;
+  font-weight: 600;
+}
+.languages p {
+  margin: 5px 0;
+}
+
+.main-content {
+  padding: 20px;
+  width: 70%;
+}
+
+.main-content h3 {
+  color: #028bb6;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.summary {
+  margin-bottom: 16px;
+}
+
+.experience {
+  margin-bottom: 20px;
+}
+.languages-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
